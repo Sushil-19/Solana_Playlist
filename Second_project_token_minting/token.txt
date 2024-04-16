@@ -34,3 +34,17 @@ Decimals:  9
 Signature: YWbDA4BjAouWLSrdcrCebwm2bNDxnpUKV3GzQmciVqhsK8U68tWpWGrQeFvKirMa383A5UVnunviftbTRnYpfhy
 
 This is address here :Aq5vSj6nmwLt3E2UKBHofqVZN6k82TUJc2T3S2MfSCVE : save it for future use.
+
+Create an account for given address of publickey:
+spl-token create-account Aq5vSj6nmwLt3E2UKBHofqVZN6k82TUJc2T3S2MfSCVE --url devnet
+
+Check Balance of token:
+spl-token balance Aq5vSj6nmwLt3E2UKBHofqVZN6k82TUJc2T3S2MfSCVE --url devnet 
+
+Mint the tokens:
+spl-token mint Aq5vSj6nmwLt3E2UKBHofqVZN6k82TUJc2T3S2MfSCVE 1000 --url devnet
+
+Check the circulating tokens in the network:
+spl-token supply Aq5vSj6nmwLt3E2UKBHofqVZN6k82TUJc2T3S2MfSCVE --url devnet
+
+
