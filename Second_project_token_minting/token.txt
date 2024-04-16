@@ -1,0 +1,36 @@
+Creating a token:
+Creating the structure of token.
+
+Minting a token:
+Actually creating a new token and issuing it to the people.
+
+Transferring a token:
+The transfer of pre existing token from one user to another.
+
+commands:
+
+to create public key:
+solana-keygen new 
+solana-keygen new --force       
+
+check pubkey:
+solana-keygen pubkey       
+
+check balance:
+solana balance --url devnet    
+
+add currancy in dev wallet of solana:
+solana airdrop 2 3YVMRQm2kczqznZEbZsXfKf9Y8dPB9vSjhedbL1foe3G --url devnet
+
+creating a token:
+spl-token create-token --url devnet   
+
+Given address of token is important/ output of command should be as below :
+Creating token Aq5vSj6nmwLt3E2UKBHofqVZN6k82TUJc2T3S2MfSCVE under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+Address:  Aq5vSj6nmwLt3E2UKBHofqVZN6k82TUJc2T3S2MfSCVE
+Decimals:  9
+
+Signature: YWbDA4BjAouWLSrdcrCebwm2bNDxnpUKV3GzQmciVqhsK8U68tWpWGrQeFvKirMa383A5UVnunviftbTRnYpfhy
+
+This is address here :Aq5vSj6nmwLt3E2UKBHofqVZN6k82TUJc2T3S2MfSCVE : save it for future use.
